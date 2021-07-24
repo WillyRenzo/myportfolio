@@ -44,8 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>Sobre mim <br />About me</SectionTitle>
-      <SectionText>Sou natural de Franca-SP. Fiz o Ensino Médio integrado com curso técnico de Análise e Desenvolvimento de Sistemas na ETEC Dr. Julio Cardoso .</SectionText>
+      <SectionDivider />
+      <SectionTitle><br />Sobre mim <br />About me</SectionTitle>
+      <SectionText>Sou de Franca-SP. Despertei o interesse e paixão pela área de TI quando fiz o Ensino Médio integrado com curso técnico de Análise e Desenvolvimento de Sistemas na ETEC Dr. Julio Cardoso. Desde então, realizei trabalhos de Desenvolvimento Web como freelancer. Atualmente estou no 5 periodo de Engenharia de Computação na UFU e sou estagiário de Pesquisa & Desenvolvimento na Landix Sistemas.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -109,7 +110,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

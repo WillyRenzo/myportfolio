@@ -10,7 +10,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       Já trabalhei e estudei diversas tecnologias para desenvolvimento tanto Web, quanto Mobile e Desktop. <br />
-      I've worked with a range a technologies in the web development world.
+      I've worked with a range of technologies in the web development world.
       From backend to mobile and frontend.
     </SectionText>
     <List>
