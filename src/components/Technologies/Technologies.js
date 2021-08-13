@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Já trabalhei e estudei diversas tecnologias para desenvolvimento tanto Web, quanto Mobile e Desktop. <br />
+      {/* Já trabalhei e estudei diversas tecnologias para desenvolvimento tanto Web, quanto Mobile e Desktop. <br /> */}
       I've worked with a range of technologies in the web development world.
       From backend to mobile and frontend.
     </SectionText>
@@ -20,11 +20,14 @@ const Technologies = () =>  (
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
             Experience with <br />
+            HTML, CSS and Javascript <br />
             React.js <br />
             Vue.js <br />
             Sass <br />
             Bootstrap <br />
-            Figma <br />  
+            Figma <br />
+            Git <br />
+            Git Flow <br />  
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,6 +45,8 @@ const Technologies = () =>  (
             Database NoSQL (MongoDB)<br />
             Database SQL (MySQL, PostgreSQL, MariaDB)<br />
             AWS Cloud <br />
+            Docker <br />
+            API Restful <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
