@@ -40,6 +40,6 @@ export const projects = [
 export const TimeLineData = [
   { year: 2015, text: 'Started High School.', },
   { year: 2017, text: 'Graduated at High School and started being a freelancer.', },
-  { year: 2018, text: 'Iniciei a Graduação em Engenharia da Computação pela Universidade Federal de Uberlândia.', },
-  { year: 2020, text: 'Comecei a trabalhar na Landix Sistemas como estagiário fullStack Developer.', },
+  { year: 2018, text: 'Started a degree in Computer Engineering at the Federal University of Uberlândia.', },
+  { year: 2020, text: 'I started working at Landix Sistemas as a fullStack Developer intern.', },
 ];
