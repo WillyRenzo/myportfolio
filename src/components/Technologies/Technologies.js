@@ -23,6 +23,8 @@ const Technologies = () =>  (
             HTML, CSS and Javascript <br />
             React.js <br />
             Vue.js <br />
+            Next.js <br />
+            Adonis.js <br />
             Sass <br />
             Bootstrap <br />
             Figma <br />
